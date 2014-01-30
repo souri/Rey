@@ -152,8 +152,6 @@ if __name__ == '__main__':
     opts.jid = config.get('rey', 'jid')
     opts.password = config.get('rey', 'password')
 
-    # opts.jid = 'reyxi666@gmail.com'
-    # opts.password = 'optimus_prime'
     if opts.jid is None:
         opts.jid = raw_input("Username: ")
     if opts.password is None:
