@@ -1,7 +1,7 @@
 Rey
 ===
 
-Rey is an intelligent chat-bot written in python. It's based on AIML. Supports XMPP and Hangouts for now.
+Rey is an pseudo-intelligent chat-bot written in python. It's based on AIML. Supports XMPP and Hangouts for now.
 
 ##Requirements
     - AIML
