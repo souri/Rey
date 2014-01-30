@@ -16,14 +16,17 @@ Rey is an intelligent chat-bot written in python. It's based on AIML. Supports X
 ##Configuration
 
 You need to create a file - rey.conf. Required contents:
+''' shell
 [rey]
 jid: xxxxxx@gmail.com
 password: xxxxxxxxxxx
 server: talk.google.com
 nick: Rey
+'''
 
 ##Example conversation
 
+'''shell
 Rey:  What is your favorite color?
 me:  blue
 Rey:  Green.
@@ -35,7 +38,4 @@ me:  green
 Rey:  green is a pretty color.
 me:  are you joking
 Rey:  Yes I am. Sorry if you don't appreciate my sense of humor.
-
-
-
-
+'''
