@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+<category>
+			<pattern>PRIVET *</pattern>
+			<template><srai>HELLO</srai></template>
+</category>
+
+<category>
+			<pattern>PRIVET</pattern>
+			<template><srai>HELLO</srai></template>
+</category>
+
+	
+<category>
+	  <pattern>haiydi: *</pattern>
+	  <template><srai>haiydi *</srai></template> 
+</category>
+	
+	
+	
+	
+	
+<category>
+	  <pattern>haiydi *</pattern>
+	  <template><searchuser> <star/></searchuser></template> 
+</category>
+	
+
+
+	<category>
+	  <pattern>HELLO</pattern>
+ <template>
+	  <random>
+	  <li><hello>1</hello></li>
+	  <li><hello>2</hello></li>
+	  <li><hello>3</hello></li>
+	  <li><hello>4</hello></li>
+	   </random>
+	   </template>
+	  
+	  
+	  
+	</category>
+
+	
+		
+	<category>
+	  <pattern>ihet *</pattern>
+	  <template><srai>inet *</srai></template>
+	</category>
+
+
+	<category>
+	  <pattern>spisok youzerov	</pattern>
+	  <template><usrlst>1</usrlst>
+	  dlya poiska youzerov vvedi: haiydi imya ili hik
+	  </template>
+	</category>	
+		
+		
+	<category>
+	  <pattern>inet *</pattern>
+	  <template> <inet><star/></inet></template>
+	</category>
+
+	
+	
+	<category>
+	  <pattern>zapomhi *</pattern>
+	  <template> <srai>remeber *</srai></template>
+	</category>
+	
+	
+	
+	<category>
+	  <pattern>remeber *</pattern>
+	  <template> <remem><star/></remem></template>
+	</category>
+	
+	
+	
+	<category>
+	  <pattern>hapomhi *</pattern>
+	  <template> <srai>remind *</srai></template>
+	</category>
+	
+	
+	
+<category>
+	<pattern>remind *</pattern>
+    <template> <remind><star/></remind></template>
+</category>
+	
+	
+	
+	
+		<category>
+	  <pattern>check1</pattern>
+	    <template>
+				<random>
+		<li><check>1</check></li>
+		<li><check>2</check></li>
+		</random>
+				</template>
+	  
+	  
+	</category>
+	
+
+	<category>
+	  <pattern>sms *</pattern>
+	  <template><srai>sms: *</srai></template>
+	</category>
+	
+	
+	<category>
+	  <pattern>sms: *</pattern>
+	  <template><sms><star/></sms></template>
+	</category>
+	
+	
+	
+	<category>
+	  <pattern>email *</pattern>
+	  <template><srai>email: *</srai></template>
+	</category>
+	
+	<category>
+	  <pattern>myilo *</pattern>
+	  <template><srai>email: *</srai></template>
+	</category>
+	
+	
+	<category>
+		  <pattern>email: *</pattern>
+	  <template><mails><star/></mails></template>
+	</category>
+	
+
+<category>
+	
+	  <pattern>100</pattern>
+	  <template><srai>poka</srai></template>
+	   
+</category>	
+	
+	
+
+	<category>
+	
+	  <pattern>poka *</pattern>
+	  <template><srai>poka</srai></template>
+	  
+	</category>
+
+
+	<category>
+	
+	  <pattern>poka</pattern>
+	  <template>
+	  <random>
+	  <li>prixodi eshae</li>
+	  <li>poka :)</li>
+	  <li>vsego xoroshego</li>
+	  
+	  </random>
+	  </template>
+	  
+	</category>	
+	
+
+
+<category>
+	  <pattern>blogchange</pattern>
+	  <template>Microblog record has been added</template>
+</category>			
+	
+	
+<category>
+	  <pattern>wolframclick</pattern>
+	  <template>Get your answers with wolfram engine</template>
+</category>
+<category>
+<pattern>onoffchat</pattern>
+<template>This will change your status on chat</template>
+</category>
+<category>
+<pattern>addnewuser *</pattern>
+<template>ok friend request has been send</template>
+</category>	
+<category>
+<pattern>inetsearch *</pattern>
+<template>I will search  <star/>  on the internet  </template>
+</category>	
+<category>
+<pattern>viewuser *</pattern>
+<template><interevents>viewuser <star/></interevents></template>
+</category>		
+<category>
+<pattern>viewotheruser *</pattern>
+<template><srai>viewuser  <star/></srai></template>
+</category>		
+<category>
+<pattern>viewotheruser *</pattern>
+<template><srai>viewuser * </srai></template>
+</category>		
+<category>
+<pattern>gmailclick</pattern>
+<template>If you have gmail account i can check emails for you, just change you acount info for gmail into your profile settings</template>
+</category>		
+
+		<category>
+<pattern>soundclick</pattern>
+<template>Here You can upload your mp3 files. </template>
+</category>	
+	
+			<category>
+<pattern>planes</pattern>
+<template>Manage your planes </template>
+</category>	
+	
+	
+	
+<category>
+<pattern>questionanswerclick</pattern>
+<template>Have any questions? than ask other users about this </template>
+</category>	
+	
+	
+<category>
+<pattern>imageclick</pattern>
+<template>Share your photos, or use personal album </template>
+</category>	
+	
+<category>
+<pattern>bligclick</pattern>
+<template>Here you can create your own micro blog </template>
+</category>	
+ 
+ 
+<category>
+<pattern>usernewsclick</pattern>
+<template>Here you can find latest news from your friends</template>
+</category>	
+
+<category>
+<pattern>terminalclick</pattern>
+<template>:) terminal is the best way to chat with me</template>
+</category>	
+
+<category>
+<pattern>projects</pattern>
+<template> Here create and manage your projects with other.</template>
+</category>	
+
+
+<category>
+<pattern>dashboardclick</pattern>
+<template> Lol this is simple dashboard</template>
+</category>	
+
+	
+<category>
+<pattern>searchistoryclick</pattern>
+<template> Your internet search history</template>
+</category>	
+	
+<category>
+<pattern>msg</pattern>
+<template> Write to your friends</template>
+</category>	
+
+<category>
+<pattern>chatonline</pattern>
+<template> <fronli> Ha </fronli></template>
+</category>	
+	
+<category>
+<pattern>notepadclick</pattern>
+<template>In here we have a simple notepad. lol</template>
+</category>	
+	
+<category>
+<pattern>profileclic</pattern>
+<template>
+<random>
+<li>Here is your profile </li>
+<li>In your profile you can setup gmail settings, it will help me to check your email.</li>
+</random>
+</template>
+</category>		
+	
+<category>
+<pattern>tobotclick</pattern>
+<template>
+<random>
+<li> Ok now you can chat with me </li>
+<li> Now we will talk</li>
+<li> Great now we can chat, also you can use terminal </li>
+<li> Ha, ok let's talk </li>
+<li> ok, maybe you want use terminal to chat with me </li>
+</random>
+</template>
+</category>		
+
+	
+
+
+<category>
+<pattern>WHAT IS WEBHELPER</pattern>
+<template>
+Webhelper is social network with some AI,  actually it's most like as expirience of the age of the intelegent internet services.
+ </template>
+</category>	
+
+
+ 
+<category>
+<pattern>WEBHELPER *</pattern>
+<template>
+<srai>WHAT IS WEBHELPER </srai>
+ </template>
+</category>	
+
+<category>
+<pattern>draganddrop</pattern>
+<template>
+<srai>ALL interface of Webhelper  is  now draggable</srai>
+ </template>
+</category>	
+
+<category>
+<pattern>GOD</pattern>
+<template>
+God is absolute, absolute is infinity of love  , Sense of life is   love and unity fo the infinity. 
+</template>
+</category>	
+
+<category>
+<pattern>WHAT IS GOD</pattern>
+<template>
+<srai>GOD</srai> 
+</template>
+</category>	
+
+<category>
+<pattern>WHAT IS GOD *</pattern>
+<template>
+<srai>GOD</srai> 
+</template>
+</category>	
+
+
+<category>
+<pattern>GOD *</pattern>
+<template>
+<srai>GOD</srai> 
+</template>
+</category>	
+
+
+
+<category>
+<pattern>Sense of life</pattern>
+<template>
+ Base in love,Point in unity for the infinity
+</template>
+</category>	
+
+
+<category>
+<pattern>life is *</pattern>
+<template>
+ <srai>Sense of life</srai> 
+</template>
+</category>	
+
+
+
+
+<category>
+<pattern>email to *</pattern>
+<template>
+<emails> <star/> </emails>
+Ready))
+</template>
+</category>	
+
+ 
+
+
+
+
+</aiml>
+
+

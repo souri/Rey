@@ -112,7 +112,7 @@ class Rey(sleekxmpp.ClientXMPP):
         if msg['type'] in ('chat', 'normal'):
             response = ''
             print "> %(from)s" % msg, ": ", "%(body)s" % msg
-            response = k.respond("%(body)s" % msg)
+            response = k.respond("%(body)s" % msg, "%(from)s" % msg)
             if not response:
                 responce = "I don't know that yet! Tell me something else."
             print "@ %(from)s" % msg, ": ", response
