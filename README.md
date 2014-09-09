@@ -10,7 +10,7 @@ Rey is an pseudo-intelligent chat-bot written in python. It's based on AIML. Sup
 
 ##Protocol support
     - XMPP
-    - Google Hangouts (TODO)
+    - Google Hangouts
     - IRC (TODO)
 
 ##Configuration
